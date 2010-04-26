@@ -9,9 +9,13 @@ Clone [vim-addon-manager script][]:
     mkdir ~/vim-plugins; cd ~/vim-plugins
     git clone git://github.com/MarcWeber/vim-addon-manager.git
 
-Clone [vim-addon-php_ide][]:
+Clone [vim-addon-php_ide][], not yet in known by [vim-addon-manager script][] repositories:
 
     git clone git://github.com/yviktorov/vim-addon-php_ide.git ~/vim-plugins/vim-addon-php_ide
+
+Clone [vim-markdown][], not yet in known by [vim-addon-manager script][] repositories:
+
+    git clone git://github.com/hallison/vim-markdown.git ~/vim-plugins/Markdown
 
 Backup your current [Vim][] home directory and clone current repository:
 
@@ -50,5 +54,7 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <wik@rentasite.com.ua>
   "vim-addon-manager Script homepage"
 [vim-addon-php_ide]: http://github.com/yviktorov/vim-addon-php_ide
   "vim-addon-php_ide"
+[vim-markdown]: http://www.vim.org/scripts/script.php?script_id=2882
+  "Vim-Markdown script homepage"
 [vim]: http://www.vim.org
   "Vim Editor"

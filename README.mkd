@@ -46,7 +46,7 @@ Copyright
 
 Copyright (c) 2010 Yevgeniy A. Viktorov <wik@rentasite.com.ua>
 
-[vim-addon-manager script]: http://www.vim.org/scripts/script.php?script_id=2882
+[vim-addon-manager script]: http://www.vim.org/scripts/script.php?script_id=2905
   "vim-addon-manager Script homepage"
 [vim-addon-php_ide]: http://github.com/yviktorov/vim-addon-php_ide
   "vim-addon-php_ide"

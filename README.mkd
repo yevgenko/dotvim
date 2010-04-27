@@ -45,6 +45,15 @@ Add to your `~/.vimrc` file:
 
     " }}}
 
+Optional
+--------
+
+[aspell wrapper][] if you interested to have spell checking simultaneously for Russian and English:
+
+    git clone git://gist.github.com/380491.git ~/bin
+    mv ~/bin/gistfile.pl ~/bin/aspell
+    chmod +x ~/bin/aspell
+
 Copyright
 ---------
 
@@ -58,3 +67,5 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <wik@rentasite.com.ua>
   "Vim-Markdown script homepage"
 [vim]: http://www.vim.org
   "Vim Editor"
+[aspell wrapper]: http://gist.github.com/380491
+  "aspell wrapper"

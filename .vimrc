@@ -1,5 +1,5 @@
 " Plugins
-call scriptmanager#Activate(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown"])
+call scriptmanager#Activate(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "vim-latex"])
 
 " Enable loading filetype and indentation plugins
 filetype plugin on
@@ -148,6 +148,7 @@ let g:PHP_removeCRwhenUnix=1
 
 " Allow autocompletion using the TAB key via snipmate
 let g:SuperTabMappingForward="<tab>"
+let g:SuperTabMappingBackward="<s-tab>"
 
 " Nice statusbar {{{
 

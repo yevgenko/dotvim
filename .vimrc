@@ -1,5 +1,5 @@
 " Plugins
-call scriptmanager#Activate(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "vim-latex", "jQuery", "tComment", "endwise", "haml.zip"])
+call scriptmanager#Activate(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "vim-latex", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim"])
 
 " Enable loading filetype and indentation plugins
 filetype plugin on

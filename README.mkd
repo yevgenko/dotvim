@@ -17,6 +17,10 @@ Clone [vim-markdown][], not yet in known by [vim-addon-manager script][] reposit
 
     git clone git://github.com/hallison/vim-markdown.git ~/vim-plugins/Markdown
 
+Clone scss syntax plugin, not yet in known by [vim-addon-manager script][] repositories:
+
+    git clone git://github.com/cakebaker/scss-syntax.vim.git ~/vim-plugins/scss-syntax.vim
+
 Backup your current [Vim][] home directory and clone current repository:
 
     mv ~/.vim ~/vim-back

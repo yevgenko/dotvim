@@ -47,8 +47,8 @@ Add to your `~/.vimrc` file:
       let g:pdv_cfg_Type = "mixed"
       let g:pdv_cfg_Package = ""
       let g:pdv_cfg_Version = "  $id$"
-      let g:pdv_cfg_Author = "   Yevgeniy A. Viktorov <wik@rentasite.com.ua>"
-      let g:pdv_cfg_Copyright = "2007-2010 CHP Viktorov A.A., Berdyansk, Ukraine"
+      let g:pdv_cfg_Author = "   Yevgeniy A. Viktorov <yeevgen@gmail.com>"
+      let g:pdv_cfg_Copyright = "2007-2011 CHP Viktorov A.A., Berdyansk, Ukraine"
       let g:pdv_cfg_License = "  BSD License {@link http://opensource.org/licenses/bsd-license.php}"
     endfunc
 
@@ -68,7 +68,7 @@ Optional
 Copyright
 ---------
 
-Copyright (c) 2010 Yevgeniy A. Viktorov <wik@rentasite.com.ua>
+Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
 
 [vim-addon-manager script]: http://www.vim.org/scripts/script.php?script_id=2905
   "vim-addon-manager Script homepage"

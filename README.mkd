@@ -21,6 +21,13 @@ Clone scss syntax plugin, not yet in known by [vim-addon-manager script][] repos
 
     git clone git://github.com/cakebaker/scss-syntax.vim.git ~/vim-plugins/scss-syntax.vim
 
+Install [Ack][], e.g. on Ubuntu:
+
+    sudo apt-get install ack-grep
+
+and override `g:ackprg` in your `~/.vimrc` if need be, default is ubuntu specific.
+See also [Ack.vim][] for detailed instruction on installing this plugin.
+
 Backup your current [Vim][] home directory and clone current repository:
 
     mv ~/.vim ~/vim-back
@@ -73,3 +80,7 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <wik@rentasite.com.ua>
   "Vim Editor"
 [aspell wrapper]: http://gist.github.com/380491
   "aspell wrapper"
+[Ack]: http://betterthangrep.com/
+  "ack is a tool like grep"
+[Ack.vim]: https://github.com/mileszs/ack.vim
+  "Vim plugin for the Perl module / CLI script 'ack'"

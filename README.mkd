@@ -28,6 +28,14 @@ Install [Ack][], e.g. on Ubuntu:
 and override `g:ackprg` in your `~/.vimrc` if need be, default is ubuntu specific.
 See also [Ack.vim][] for detailed instruction on installing this plugin.
 
+Install [Command-T][] plugin:
+
+    git clone git://git.wincent.com/command-t.git ~/vim-plugins/Command-T
+    cd ~/vim-plugins/Command-T
+    rake make
+
+see [Command-T#readme][] for detailed instruction.
+
 Backup your current [Vim][] home directory and clone current repository:
 
     mv ~/.vim ~/vim-back
@@ -84,3 +92,7 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
   "ack is a tool like grep"
 [Ack.vim]: https://github.com/mileszs/ack.vim
   "Vim plugin for the Perl module / CLI script 'ack'"
+[Command-T]: https://wincent.com/products/command-t
+  "The Command-T plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes"
+[Command-T#readme]: https://github.com/wincent/Command-T#readme
+  "Command-T readme"

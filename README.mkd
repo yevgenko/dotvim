@@ -28,6 +28,10 @@ Install [Ack][], e.g. on Ubuntu:
 and override `g:ackprg` in your `~/.vimrc` if need be, default is ubuntu specific.
 See also [Ack.vim][] for detailed instruction on installing this plugin.
 
+Clone my fork of [NERD_Tree-and-ack][] plugin:
+
+    git clone git://github.com/yeevgen/NERD_Tree-and-ack.git ~/vim-plugins/NERD_Tree-and-ack
+
 Install [Command-T][] plugin:
 
     git clone git://git.wincent.com/command-t.git ~/vim-plugins/Command-T
@@ -92,6 +96,8 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
   "ack is a tool like grep"
 [Ack.vim]: https://github.com/mileszs/ack.vim
   "Vim plugin for the Perl module / CLI script 'ack'"
+[NERD_Tree-and-ack]: https://github.com/yeevgen/NERD_Tree-and-ack
+  "Adding search capability to NERD_Tree with ack"
 [Command-T]: https://wincent.com/products/command-t
   "The Command-T plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes"
 [Command-T#readme]: https://github.com/wincent/Command-T#readme

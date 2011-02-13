@@ -172,7 +172,7 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 
 " color scheme
 "set background=dark
-colorscheme tango
+colorscheme anotherdark
 
 "}}}
 

@@ -24,7 +24,7 @@ augroup filetypedetect
   autocmd BufNewFile *.txt 0r ~/.vim/skeleton.txt | normal GddOAOAOAOAOAOAOAOAOA
 
   " Removing trailing whitespace
-  autocmd BufRead * silent! %s/[\r \t]\+$//
+  autocmd BufRead *.php silent! %s/[\r \t]\+$//
   autocmd BufEnter *.php :%s/[ \t\r]\+$//e
 
   " }}}

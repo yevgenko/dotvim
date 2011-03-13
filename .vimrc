@@ -1,5 +1,5 @@
 " Plugins
-call scriptmanager#Activate(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "vim-latex", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim", "ack.vim", "Command-T", "NERD_Tree-and-ack", "Eclim"])
+call scriptmanager#Activate(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "vim-latex", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim", "ack.vim", "Command-T", "NERD_Tree-and-ack", "Eclim", "CSApprox"])
 
 " Enable loading filetype and indentation plugins
 filetype plugin on
@@ -173,6 +173,7 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 " color scheme
 "set background=dark
 colorscheme anotherdark
+set t_Co=256
 
 "}}}
 

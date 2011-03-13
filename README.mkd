@@ -4,35 +4,35 @@ My common vim settings and mappings
 Install
 -------
 
-Clone [vim-addon-manager script][]:
+1. Clone [vim-addon-manager script][]:
 
     mkdir ~/vim-plugins; cd ~/vim-plugins
     git clone git://github.com/MarcWeber/vim-addon-manager.git
 
-Clone [vim-addon-php_ide][], not yet in known by [vim-addon-manager script][] repositories:
+2. Clone [vim-addon-php_ide][], not yet in known by [vim-addon-manager script][] repositories:
 
     git clone git://github.com/yviktorov/vim-addon-php_ide.git ~/vim-plugins/vim-addon-php_ide
 
-Clone [vim-markdown][], not yet in known by [vim-addon-manager script][] repositories:
+3. Clone [vim-markdown][], not yet in known by [vim-addon-manager script][] repositories:
 
     git clone git://github.com/hallison/vim-markdown.git ~/vim-plugins/Markdown
 
-Clone scss syntax plugin, not yet in known by [vim-addon-manager script][] repositories:
+4. Clone scss syntax plugin, not yet in known by [vim-addon-manager script][] repositories:
 
     git clone git://github.com/cakebaker/scss-syntax.vim.git ~/vim-plugins/scss-syntax.vim
 
-Install [Ack][], e.g. on Ubuntu:
+5. Install [Ack][], e.g. on Ubuntu:
 
     sudo apt-get install ack-grep
 
 and override `g:ackprg` in your `~/.vimrc` if need be, default is ubuntu specific.
 See also [Ack.vim][] for detailed instruction on installing this plugin.
 
-Clone my fork of [NERD_Tree-and-ack][] plugin:
+6. Clone my fork of [NERD_Tree-and-ack][] plugin:
 
     git clone git://github.com/yeevgen/NERD_Tree-and-ack.git ~/vim-plugins/NERD_Tree-and-ack
 
-Install [Command-T][] plugin:
+7. Install [Command-T][] plugin:
 
     git clone git://git.wincent.com/command-t.git ~/vim-plugins/Command-T
     cd ~/vim-plugins/Command-T
@@ -40,12 +40,14 @@ Install [Command-T][] plugin:
 
 see [Command-T#readme][] for detailed instruction.
 
-Backup your current [Vim][] home directory and clone current repository:
+8. Install [Eclim][], and specify the following path: `~/vim-plugins/Eclim` when you will be asked for vim.files directory.
+
+9. Backup your current [Vim][] home directory and clone current repository:
 
     mv ~/.vim ~/vim-back
     git clone git://github.com/yviktorov/vim-common.git ~/.vim
 
-Add to your `~/.vimrc` file:
+10. Add to your `~/.vimrc` file:
 
     " tell Vim where to find the autoload function:
     set runtimepath+=~/vim-plugins/vim-addon-manager
@@ -102,3 +104,5 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
   "The Command-T plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes"
 [Command-T#readme]: https://github.com/wincent/Command-T#readme
   "Command-T readme"
+[Eclim]: http://eclim.org/
+  "bring Eclipse functionality to the Vim editor"

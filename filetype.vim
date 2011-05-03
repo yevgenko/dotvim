@@ -28,13 +28,11 @@ augroup filetypedetect
   autocmd BufEnter *.php :%s/[ \t\r]\+$//e
 
   " }}}
-  " Ruby/Rails Specific {{{
   " {{{ Automatic close char mapping
-  autocmd FileType ruby,rails,eruby inoremap <buffer> { {  }<LEFT><LEFT>
-  autocmd FileType ruby,rails,eruby inoremap <buffer> [ []<LEFT>
-  autocmd FileType ruby,rails,eruby inoremap <buffer> ( ()<LEFT>
-  autocmd FileType ruby,rails,eruby inoremap <buffer> ' ''<LEFT>
-  autocmd FileType ruby,rails,eruby inoremap <buffer> " ""<LEFT>
+  autocmd FileType python,ruby,rails,eruby inoremap <buffer> { {  }<LEFT><LEFT>
+  autocmd FileType python,ruby,rails,eruby inoremap <buffer> [ []<LEFT>
+  autocmd FileType python,ruby,rails,eruby inoremap <buffer> ( ()<LEFT>
+  autocmd FileType python,ruby,rails,eruby inoremap <buffer> ' ''<LEFT>
+  autocmd FileType python,ruby,rails,eruby inoremap <buffer> " ""<LEFT>
   " }}} Automatic close char mapping
-  " }}}
 augroup END

@@ -55,7 +55,7 @@ set scrolloff=3
 set shiftround
 
 " Use 4 spaces for (auto)indent
-set shiftwidth=2
+set shiftwidth=4
 
 " Show (partial) commands (or size of selection in Visual mode) in the status line
 set showcmd
@@ -66,8 +66,8 @@ set showmatch
 " Don't request terminal version string (for xterm)
 set t_RV=
 
-" Use 2 spaces for <Tab> and :retab
-set tabstop=2
+" Use 4 spaces for <Tab> and :retab
+set tabstop=4
 
 set expandtab
 "set smartindent

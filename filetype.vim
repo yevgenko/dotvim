@@ -31,6 +31,7 @@ augroup filetypedetect
   " {{{ Automatic close char mapping
   autocmd FileType python,ruby,rails,eruby inoremap <buffer> { {  }<LEFT><LEFT>
   autocmd FileType python,ruby,rails,eruby inoremap <buffer> [ []<LEFT>
+  autocmd FileType eruby inoremap <buffer> <% <%=  %><LEFT><LEFT><LEFT>
   autocmd FileType python,ruby,rails,eruby inoremap <buffer> ( ()<LEFT>
   autocmd FileType python,ruby,rails,eruby inoremap <buffer> ' ''<LEFT>
   autocmd FileType python,ruby,rails,eruby inoremap <buffer> " ""<LEFT>

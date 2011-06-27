@@ -1,5 +1,5 @@
 " Plugins
-call vam#ActivateAddons(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim", "ack.vim", "Command-T", "NERD_Tree-and-ack", "Eclim", "CSApprox", "repeat"])
+call vam#ActivateAddons(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim", "ack.vim", "Command-T", "NERD_Tree-and-ack", "Eclim", "CSApprox", "repeat", "rvm"])
 
 " Enable loading filetype and indentation plugins
 filetype plugin on
@@ -164,6 +164,7 @@ set statusline+=\ %{fugitive#statusline()}   " git branch
 "if filereadable(expand("$VIM/vimfiles/plugin/vimbuddy.vim"))
 "    set statusline+=\ %{VimBuddy()}         " vim buddy
 "endif
+set statusline+=\ %{rvm#statusline()}        " rvm
 set statusline+=%=                           " right align
 set statusline+=0x%-8B\                      " current char
 set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset

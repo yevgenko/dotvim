@@ -1,5 +1,5 @@
 " Plugins
-call vam#ActivateAddons(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim", "ack.vim", "Command-T", "NERD_Tree-and-ack", "Eclim", "CSApprox", "repeat", "rvm"])
+call vam#ActivateAddons(["JSON", "The_NERD_tree", "snipmate", "bufexplorer.zip", "rails", "vim-ruby", "cucumber.zip", "vim-addon-php_ide", "PDV_revised", "fugitive", "Syntastic", "dbext", "surround", "Markdown", "textile", "DBGp_client", "jQuery", "tComment", "endwise", "haml.zip", "scss-syntax.vim", "ack.vim", "Command-T", "NERD_Tree-and-ack", "CSApprox", "repeat", "rvm"])
 
 " Enable loading filetype and indentation plugins
 filetype plugin on

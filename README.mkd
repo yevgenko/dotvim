@@ -44,12 +44,16 @@ see [Command-T#readme][] for detailed instruction.
 
     git clone git://github.com/csexton/rvm.vim.git ~/vim-plugins/rvm
 
-9. Backup your current [Vim][] home directory and clone current repository:
+9. Install [vim-tagbar][] plugin:
+
+    git clone git://github.com/majutsushi/tagbar.git ~/vim-plugins/tagbar
+
+10. Backup your current [Vim][] home directory and clone current repository:
 
     mv ~/.vim ~/vim-back
     git clone git://github.com/yviktorov/vim-common.git ~/.vim
 
-10. Add to your `~/.vimrc` file:
+11. Add to your `~/.vimrc` file:
 
     " tell Vim where to find the autoload function:
     set runtimepath+=~/vim-plugins/vim-addon-manager
@@ -108,3 +112,5 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
   "Command-T readme"
 [rvm.vim]: http://www.vim.org/scripts/script.php?script_id=3134
   "Adds RVM (Ruby Version Manager http://rvm.beginrescueend.com/) integration to Vim"
+[vim-tagbar]: http://majutsushi.github.com/tagbar/
+  "Display tags of the current file ordered by scope"

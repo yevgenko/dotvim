@@ -40,7 +40,7 @@ See also [Ack.vim][] for detailed instruction on installing this plugin.
 
 see [Command-T#readme][] for detailed instruction.
 
-8. Install [rvm][] plugin:
+8. Install [rvm.vim][] plugin:
 
     git clone git://github.com/csexton/rvm.vim.git ~/vim-plugins/rvm
 
@@ -106,5 +106,5 @@ Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
   "The Command-T plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes"
 [Command-T#readme]: https://github.com/wincent/Command-T#readme
   "Command-T readme"
-[Eclim]: http://eclim.org/
-  "bring Eclipse functionality to the Vim editor"
+[rvm.vim]: http://www.vim.org/scripts/script.php?script_id=3134
+  "Adds RVM (Ruby Version Manager http://rvm.beginrescueend.com/) integration to Vim"

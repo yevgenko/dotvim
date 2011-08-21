@@ -37,3 +37,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/dbext"]
+	path = bundle/dbext
+	url = git://github.com/vim-scripts/dbext.vim.git

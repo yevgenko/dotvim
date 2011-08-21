@@ -1,3 +1,6 @@
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = git://github.com/hallison/vim-markdown.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git

@@ -46,3 +46,12 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = git://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vim-addons-mw-utils"]
+	path = bundle/vim-addons-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git

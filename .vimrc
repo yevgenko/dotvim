@@ -173,9 +173,13 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 " }}}
 
 " color scheme
-"set background=dark
-colorscheme anotherdark
-set t_Co=256
+if has('gui_running')
+  set background=light
+else
+  set background=dark
+endif
+colorscheme solarized
+" set t_Co=256
 
 "}}}
 

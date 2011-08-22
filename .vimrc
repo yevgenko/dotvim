@@ -216,9 +216,9 @@ nmap gf :new %:p:h/<cfile><CR>
 " map <p> and <P> to paste below/above and reformat
 nnoremap <Esc>P  P'[v']=
 nnoremap <Esc>p  p'[v']=
-" C-c and C-v - Copy/Paste в "глобальный клипборд"
+" C-c and C-v - global clipboard Copy/Paste
 vmap <C-c> "+y
-imap <C-v> <esc>"+gPi
+imap <C-v> <esc>"+pa
 vmap <C-v> "+gP
 " normal copy/paste
 "vmap <C-c> y<Esc>i

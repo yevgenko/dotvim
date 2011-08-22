@@ -3,8 +3,7 @@ source ~/.vim/bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " Enable loading filetype and indentation plugins
-filetype plugin on
-filetype indent on
+filetype plugin indent on
 
 " Turn syntax highlighting on
 syntax on
@@ -55,7 +54,7 @@ set scrolloff=3
 " Round indent to multiple of 'shiftwidth' for > and < commands
 set shiftround
 
-" Use 4 spaces for (auto)indent
+" Use 2 spaces for (auto)indent
 set shiftwidth=2
 
 " Show (partial) commands (or size of selection in Visual mode) in the status line
@@ -146,10 +145,6 @@ let g:NERDTreeChDirMode=2
 let g:NERDTreeWinPos="right"
 
 let g:PHP_removeCRwhenUnix=1
-
-" Allow autocompletion using the TAB key via snipmate
-let g:SuperTabMappingForward="<tab>"
-let g:SuperTabMappingBackward="<s-tab>"
 
 " Nice statusbar {{{
 

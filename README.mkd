@@ -1,116 +1,31 @@
-My common vim settings and mappings
-============
+## Install
 
-Install
--------
+    mv ~/.vim ~/vim-back #backup your current dot vim directory if exists
+    git clone git://github.com/yeevgen/dotvim.git ~/.vim 
+    cd ~/.vim
+    git submodule init
+    git submodule update
+    cd bundle/command-t
+    rake make #see command-t notes
 
-1. Clone [vim-addon-manager script][]:
-
-    mkdir ~/vim-plugins; cd ~/vim-plugins
-    git clone git://github.com/MarcWeber/vim-addon-manager.git
-
-2. Clone [vim-addon-php_ide][], not yet in known by [vim-addon-manager script][] repositories:
-
-    git clone git://github.com/yviktorov/vim-addon-php_ide.git ~/vim-plugins/vim-addon-php_ide
-
-3. Clone [vim-markdown][], not yet in known by [vim-addon-manager script][] repositories:
-
-    git clone git://github.com/hallison/vim-markdown.git ~/vim-plugins/Markdown
-
-4. Clone scss syntax plugin, not yet in known by [vim-addon-manager script][] repositories:
-
-    git clone git://github.com/cakebaker/scss-syntax.vim.git ~/vim-plugins/scss-syntax.vim
-
-5. Install [Ack][], e.g. on Ubuntu:
-
-    sudo apt-get install ack-grep
-
-and override `g:ackprg` in your `~/.vimrc` if need be, default is ubuntu specific.
-See also [Ack.vim][] for detailed instruction on installing this plugin.
-
-6. Clone my fork of [NERD_Tree-and-ack][] plugin:
-
-    git clone git://github.com/yeevgen/NERD_Tree-and-ack.git ~/vim-plugins/NERD_Tree-and-ack
-
-7. Install [Command-T][] plugin:
-
-    git clone git://git.wincent.com/command-t.git ~/vim-plugins/Command-T
-    cd ~/vim-plugins/Command-T
-    rake make
-
-see [Command-T#readme][] for detailed instruction.
-
-8. Install [rvm.vim][] plugin:
-
-    git clone git://github.com/csexton/rvm.vim.git ~/vim-plugins/rvm
-
-9. Install [vim-tagbar][] plugin:
-
-    git clone git://github.com/majutsushi/tagbar.git ~/vim-plugins/tagbar
-
-10. Backup your current [Vim][] home directory and clone current repository:
-
-    mv ~/.vim ~/vim-back
-    git clone git://github.com/yviktorov/vim-common.git ~/.vim
-
-11. Add to your `~/.vimrc` file:
-
-    " tell Vim where to find the autoload function:
-    set runtimepath+=~/vim-plugins/vim-addon-manager
+Replace your `~/.vimrc` file with something like this:
 
     " Source general configuration file
     source ~/.vim/.vimrc
 
-    " {{{ PDV (php-doc) settings
+and add local settings if you like
 
-    func! PDVLocalSettings()
-      let g:pdv_cfg_Type = "mixed"
-      let g:pdv_cfg_Package = ""
-      let g:pdv_cfg_Version = "  $id$"
-      let g:pdv_cfg_Author = "   Yevgeniy A. Viktorov <yeevgen@gmail.com>"
-      let g:pdv_cfg_Copyright = "2007-2011 CHP Viktorov A.A., Berdyansk, Ukraine"
-      let g:pdv_cfg_License = "  BSD License {@link http://opensource.org/licenses/bsd-license.php}"
-    endfunc
+## Notes
 
-    au BufRead,BufNewFile *.php call PDVLocalSettings()
+### Command-T
 
-    " }}}
+If you are an RVM user, you must perform the build(`rake make`) using the same
+version of Ruby that Vim itself is linked against. This will often be the
+system Ruby, which can be selected before issuing the "make" command with:
 
-Optional
---------
+    rvm use system
 
-[aspell wrapper][] if you interested to have spell checking simultaneously for Russian and English:
+## Copyright
 
-    git clone git://gist.github.com/380491.git ~/bin
-    mv ~/bin/gistfile.pl ~/bin/aspell
-    chmod +x ~/bin/aspell
+Copyright (c) 2011 Yevgeniy A. Viktorov <yeevgen@gmail.com>
 
-Copyright
----------
-
-Copyright (c) 2010 Yevgeniy A. Viktorov <yeevgen@gmail.com>
-
-[vim-addon-manager script]: http://www.vim.org/scripts/script.php?script_id=2905
-  "vim-addon-manager Script homepage"
-[vim-addon-php_ide]: http://github.com/yviktorov/vim-addon-php_ide
-  "vim-addon-php_ide"
-[vim-markdown]: http://www.vim.org/scripts/script.php?script_id=2882
-  "Vim-Markdown script homepage"
-[vim]: http://www.vim.org
-  "Vim Editor"
-[aspell wrapper]: http://gist.github.com/380491
-  "aspell wrapper"
-[Ack]: http://betterthangrep.com/
-  "ack is a tool like grep"
-[Ack.vim]: https://github.com/mileszs/ack.vim
-  "Vim plugin for the Perl module / CLI script 'ack'"
-[NERD_Tree-and-ack]: https://github.com/yeevgen/NERD_Tree-and-ack
-  "Adding search capability to NERD_Tree with ack"
-[Command-T]: https://wincent.com/products/command-t
-  "The Command-T plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes"
-[Command-T#readme]: https://github.com/wincent/Command-T#readme
-  "Command-T readme"
-[rvm.vim]: http://www.vim.org/scripts/script.php?script_id=3134
-  "Adds RVM (Ruby Version Manager http://rvm.beginrescueend.com/) integration to Vim"
-[vim-tagbar]: http://majutsushi.github.com/tagbar/
-  "Display tags of the current file ordered by scope"

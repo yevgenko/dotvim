@@ -287,4 +287,8 @@ nnoremap <Leader>gD :diffoff!<cr><c-w>h:bd<cr>
 " Clear QuickFix buffer
 com! Clrx call setqflist([]) | ccl
 
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
 " }}}

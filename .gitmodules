@@ -61,3 +61,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/trailing-whitespace"]
+	path = bundle/trailing-whitespace
+	url = git://github.com/bronson/vim-trailing-whitespace.git

@@ -23,10 +23,6 @@ augroup filetypedetect
   " Reads the skeleton txt file
   autocmd BufNewFile *.txt 0r ~/.vim/skeleton.txt | normal GddOAOAOAOAOAOAOAOAOA
 
-  " Removing trailing whitespace
-  autocmd BufRead *.php silent! %s/[\r \t]\+$//
-  autocmd BufEnter *.php :%s/[ \t\r]\+$//e
-
   " }}}
   " {{{ Automatic close char mapping
   autocmd FileType python,ruby,rails,eruby inoremap <buffer> { {  }<LEFT><LEFT>

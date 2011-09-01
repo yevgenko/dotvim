@@ -117,9 +117,6 @@ set grepprg=/usr/bin/vimgrep\ $*\ /dev/null
 autocmd InsertLeave * se nocul
 autocmd InsertEnter * se cul
 
-" Highlight trailing whitespaces
-match Todo /\s\+$/
-
 " Show line numbers by default
 "set number
 

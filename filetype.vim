@@ -24,12 +24,13 @@ augroup filetypedetect
   autocmd BufNewFile *.txt 0r ~/.vim/skeleton.txt | normal GddOAOAOAOAOAOAOAOAOA
 
   " }}}
+
   " {{{ Automatic close char mapping
-  autocmd FileType python,ruby,rails,eruby inoremap <buffer> { {  }<LEFT><LEFT>
-  autocmd FileType python,ruby,rails,eruby inoremap <buffer> [ []<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> { {  }<LEFT><LEFT>
+  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> [ []<LEFT>
   autocmd FileType eruby inoremap <buffer> <% <%=  %><LEFT><LEFT><LEFT>
-  autocmd FileType python,ruby,rails,eruby inoremap <buffer> ( ()<LEFT>
-  autocmd FileType python,ruby,rails,eruby inoremap <buffer> ' ''<LEFT>
-  autocmd FileType python,ruby,rails,eruby inoremap <buffer> " ""<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> ( ()<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> ' ''<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> " ""<LEFT>
   " }}} Automatic close char mapping
 augroup END

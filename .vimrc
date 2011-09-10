@@ -154,6 +154,7 @@ set statusline+=[%{strlen(&ft)?&ft:'none'},  " filetype
 set statusline+=%{&encoding},                " encoding
 set statusline+=%{&fileformat}]              " file format
 set statusline+=\ %{fugitive#statusline()}   " git branch
+set statusline+=\ %{rvm#statusline()}        " rvm
 "if filereadable(expand("$VIM/vimfiles/plugin/vimbuddy.vim"))
 "    set statusline+=\ %{VimBuddy()}         " vim buddy
 "endif

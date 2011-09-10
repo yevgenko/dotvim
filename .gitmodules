@@ -64,3 +64,6 @@
 [submodule "bundle/JDE"]
 	path = bundle/JDE
 	url = git://github.com/vim-scripts/Vim-JDE.git
+[submodule "bundle/rvm"]
+	path = bundle/rvm
+	url = git://github.com/tpope/vim-rvm.git

@@ -26,11 +26,12 @@ augroup filetypedetect
   " }}}
 
   " {{{ Automatic close char mapping
-  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> { {  }<LEFT><LEFT>
-  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> [ []<LEFT>
+  autocmd FileType python,ruby,rails,eruby inoremap <buffer> { {  }<LEFT><LEFT>
+  autocmd FileType java,php inoremap <buffer> { {<CR>}<C-O>O
+  autocmd FileType python,ruby,rails,eruby,java,php inoremap <buffer> [ []<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java,php inoremap <buffer> ( ()<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java,php inoremap <buffer> ' ''<LEFT>
+  autocmd FileType python,ruby,rails,eruby,java,php inoremap <buffer> " ""<LEFT>
   autocmd FileType eruby inoremap <buffer> <% <%=  %><LEFT><LEFT><LEFT>
-  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> ( ()<LEFT>
-  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> ' ''<LEFT>
-  autocmd FileType python,ruby,rails,eruby,java inoremap <buffer> " ""<LEFT>
   " }}} Automatic close char mapping
 augroup END

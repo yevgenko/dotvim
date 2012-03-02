@@ -1,19 +1,13 @@
 ## Install
 
-    mv ~/.vim ~/vim-back #backup your current dot vim directory if exists
-    git clone git://github.com/yeevgen/dotvim.git ~/.vim 
-    cd ~/.vim
-    git submodule init
-    git submodule update
-    cd bundle/command-t
-    rake make #see command-t notes
+    git clone --recursive git@github.com:yevgenko/dotvim.git ~/.vim
+    cd ~/.vim/bundle/command-t
+    rake make # see command-t notes
 
 Replace your `~/.vimrc` file with something like this:
 
     " Source general configuration file
     source ~/.vim/.vimrc
-
-and add local settings if you like
 
 ## Notes
 
@@ -27,5 +21,5 @@ system Ruby, which can be selected before issuing the "make" command with:
 
 ## Copyright
 
-Copyright (c) 2011 Yevgeniy A. Viktorov <yeevgen@gmail.com>
+Copyright (c) 2011 Yevgeniy A. Viktorov
 

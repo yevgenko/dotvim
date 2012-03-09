@@ -143,27 +143,6 @@ let g:NERDTreeWinPos="right"
 
 let g:PHP_removeCRwhenUnix=1
 
-" Nice statusbar {{{
-
-set laststatus=2
-set statusline=
-set statusline+=%n\                          " buffer number
-set statusline+=%f\                          " file name
-set statusline+=%h%m%r%w%0*\                 " flags
-set statusline+=[%{strlen(&ft)?&ft:'none'},  " filetype
-set statusline+=%{&encoding},                " encoding
-set statusline+=%{&fileformat}]              " file format
-set statusline+=\ %{fugitive#statusline()}   " git branch
-set statusline+=\ %{rvm#statusline()}        " rvm
-"if filereadable(expand("$VIM/vimfiles/plugin/vimbuddy.vim"))
-"    set statusline+=\ %{VimBuddy()}         " vim buddy
-"endif
-set statusline+=%=                           " right align
-set statusline+=0x%-8B\                      " current char
-set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
-
-" }}}
-
 " color scheme
 if has('gui_running')
   set background=light
@@ -180,6 +159,9 @@ let g:ackprg = "ack-grep -H --nocolor --nogroup --column"
 
 " Eclim - shared tree instance
 let g:EclimProjectTreeSharedInstance = 1
+
+" Powerline - allow fancy symbols
+let g:Powerline_symbols = 'fancy'
 
 " }}}
 

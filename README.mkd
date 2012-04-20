@@ -19,6 +19,13 @@ system Ruby, which can be selected before issuing the "make" command with:
 
     rvm use system
 
+### Powerline
+
+Ubuntu Mono fonts patched for the "Powerline" vim plugin: https://github.com/Lokaltog/vim-powerline/
+
+    mkdir ~/.fonts && cd ~/.fonts && git clone https://github.com/scotu/ubuntu-mono-powerline.git
+    sudo fc-cache -vf
+
 ## Copyright
 
 Copyright (c) 2011 Yevgeniy A. Viktorov

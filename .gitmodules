@@ -58,9 +58,6 @@
 [submodule "bundle/trailing-whitespace"]
 	path = bundle/trailing-whitespace
 	url = git://github.com/bronson/vim-trailing-whitespace.git
-[submodule "bundle/JDE"]
-	path = bundle/JDE
-	url = git://github.com/vim-scripts/Vim-JDE.git
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = git://github.com/tpope/vim-rvm.git

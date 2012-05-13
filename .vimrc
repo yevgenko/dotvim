@@ -152,6 +152,9 @@ endif
 colorscheme solarized
 set t_Co=256
 
+" 80 column layout indicator
+set colorcolumn=80
+
 "}}}
 
 " ack binaries name and default options

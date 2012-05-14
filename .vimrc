@@ -276,4 +276,8 @@ com! Clrx call setqflist([]) | ccl
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
+" ,rt -> regenerate tags, including objects/functions from installed gems
+" http://effectif.com/vim/using-ctags-with-bundler-gems
+map <leader>rt :!ctags -R<CR><C-M>
+
 " }}}

@@ -280,4 +280,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 " http://effectif.com/vim/using-ctags-with-bundler-gems
 map <leader>rt :!ctags -R<CR><C-M>
 
+" Search keyword in files
+nmap <leader>a <Esc>:Ack!<cr>
+
 " }}}

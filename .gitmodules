@@ -88,3 +88,6 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = git://github.com/klen/python-mode.git
+[submodule "bundle/dwm"]
+	path = bundle/dwm
+	url = git://github.com/spolu/dwm.vim.git

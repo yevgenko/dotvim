@@ -283,4 +283,11 @@ map <leader>rt :!ctags -R<CR><C-M>
 " Search keyword in files
 nmap <leader>a <Esc>:Ack!<cr>
 
+" DWM - dynamic window manager
+let g:dwm_map_keys = -1
+map <C-@> :call DWM_Focus()<CR>
+map <C-M> :call DWM_Full()<CR>
+map <C-J> <C-W>w
+map <C-K> <C-W>W
+
 " }}}

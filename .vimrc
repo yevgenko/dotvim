@@ -290,4 +290,24 @@ map <C-M> :call DWM_Full()<CR>
 map <C-J> <C-W>w
 map <C-K> <C-W>W
 
+" Fake '|' as text object
+nnoremap di\| T\|d,
+nnoremap da\| F\|d,
+nnoremap ci\| T\|c,
+nnoremap ca\| F\|c,
+nnoremap yi\| T\|y,
+nnoremap ya\| F\|y,
+nnoremap vi\| T\|v,
+nnoremap va\| F\|v,
+
+" Fake '/' as text object
+nnoremap di/ T/d,
+nnoremap da/ F/d,
+nnoremap ci/ T/c,
+nnoremap ca/ F/c,
+nnoremap yi/ T/y,
+nnoremap ya/ F/y,
+nnoremap vi/ T/v,
+nnoremap va/ F/v,
+
 " }}}

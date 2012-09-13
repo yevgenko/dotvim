@@ -91,3 +91,6 @@
 [submodule "bundle/dwm"]
 	path = bundle/dwm
 	url = git://github.com/spolu/dwm.vim.git
+[submodule "bundle/localvimrc"]
+	path = bundle/localvimrc
+	url = https://github.com/embear/vim-localvimrc.git

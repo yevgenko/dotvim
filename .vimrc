@@ -284,7 +284,7 @@ map <leader>rt :!ctags -R<CR><C-M>
 nmap <leader>a <Esc>:Ack!<cr>
 
 " DWM - dynamic window manager
-let g:dwm_map_keys = -1
+let g:dwm_map_keys = 0
 map <C-@> :call DWM_Focus()<CR>
 map <C-M> :call DWM_Full()<CR>
 map <C-J> <C-W>w

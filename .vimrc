@@ -166,6 +166,9 @@ let g:EclimProjectTreeSharedInstance = 1
 " Powerline - allow fancy symbols
 let g:Powerline_symbols = 'fancy'
 
+" SuperTab
+let g:SuperTabDefaultCompletionType = "context"
+
 " }}}
 
 " MAPPINGS {{{

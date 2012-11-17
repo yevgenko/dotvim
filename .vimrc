@@ -313,4 +313,8 @@ nnoremap ya/ F/y,
 nnoremap vi/ T/v,
 nnoremap va/ F/v,
 
+" Tagbar
+let g:tagbar_autoclose = 1
+map <leader>l :TagbarToggle<CR>
+
 " }}}

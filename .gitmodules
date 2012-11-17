@@ -97,3 +97,6 @@
 [submodule "bundle/PIV"]
 	path = bundle/PIV
 	url = git://github.com/spf13/PIV.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git

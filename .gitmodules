@@ -97,6 +97,3 @@
 [submodule "bundle/PIV"]
 	path = bundle/PIV
 	url = git://github.com/spf13/PIV.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git

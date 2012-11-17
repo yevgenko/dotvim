@@ -124,7 +124,7 @@ autocmd InsertEnter * se cul
 set foldmethod=marker
 
 " Autoclose folds, when moving out of them
-set foldclose=all
+" set foldclose=all
 
 " Jump 5 lines when running out of the screen
 set scrolljump=5

@@ -93,6 +93,8 @@ set wildmenu
 "   - on second <Tab>, complete the next full match and show menu
 set wildmode=list:longest,full
 
+set wildignore+=*.pyc
+
 " Go back to the position the cursor was on the last time this file was edited
 au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")|execute("normal `\"")|endif
 

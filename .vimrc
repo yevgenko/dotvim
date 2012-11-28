@@ -157,6 +157,9 @@ set t_Co=256
 " 80 column layout indicator
 set colorcolumn=80
 
+" remove toolbar in gvim
+set guioptions-=T
+
 "}}}
 
 " ack binaries name and default options

@@ -196,8 +196,6 @@ imap <C-L> @@@<ESC>hhkywjl?@@@<CR>P/@@@<CR>3s
 " map ,f to display all lines with keyword under cursor and ask which one to
 " jump to
 nmap ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
-" use <F6> to toggle line numbers
-nmap <silent> ,m :set number!<CR>
 " page down with <Space>
 nmap <Space> <PageDown>
 " open filename under cursor in a new window (use current file's working
@@ -322,5 +320,8 @@ nnoremap va/ F/v,
 " Tagbar
 let g:tagbar_autoclose = 1
 map <leader>l :TagbarToggle<CR>
+
+" Line number toggle trigger
+let g:NumberToggleTrigger = '<leader>m'
 
 " }}}

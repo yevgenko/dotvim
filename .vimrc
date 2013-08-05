@@ -273,7 +273,8 @@ nnoremap <Leader>gL :Git log<cr>
 nnoremap <Leader>gu :Git up<cr>
 " diff mode
 nnoremap <Leader>gd :Gdiff<cr>
-nnoremap <Leader>gD :diffoff!<cr><c-w>h:bd<cr>
+" nnoremap <Leader>gD :diffoff!<cr><c-w>h:bd<cr>
+nnoremap <Leader>gD <c-w>h<c-w>c
 
 " }}}
 

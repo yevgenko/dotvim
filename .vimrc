@@ -120,7 +120,7 @@ autocmd InsertLeave * se nocul
 autocmd InsertEnter * se cul
 
 " Show line numbers by default
-"set number
+set number
 
 " Enable folding by fold markers
 set foldmethod=marker

@@ -112,3 +112,6 @@
 [submodule "bundle/zencoding"]
 	path = bundle/zencoding
 	url = git://github.com/mattn/zencoding-vim.git
+[submodule "bundle/numbertoggle"]
+	path = bundle/numbertoggle
+	url = git://github.com/jeffkreeftmeijer/vim-numbertoggle.git

@@ -118,3 +118,6 @@
 [submodule "bundle/rspec"]
 	path = bundle/rspec
 	url = git://github.com/thoughtbot/vim-rspec.git
+[submodule "bundle/tslime"]
+	path = bundle/tslime
+	url = git://github.com/jgdavey/tslime.vim.git

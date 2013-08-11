@@ -121,3 +121,6 @@
 [submodule "bundle/vroom"]
 	path = bundle/vroom
 	url = git://github.com/skalnik/vim-vroom.git
+[submodule "bundle/tmux-navigator"]
+	path = bundle/tmux-navigator
+	url = git://github.com/christoomey/vim-tmux-navigator.git

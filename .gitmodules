@@ -115,9 +115,6 @@
 [submodule "bundle/numbertoggle"]
 	path = bundle/numbertoggle
 	url = git://github.com/jeffkreeftmeijer/vim-numbertoggle.git
-[submodule "bundle/rspec"]
-	path = bundle/rspec
-	url = git://github.com/thoughtbot/vim-rspec.git
 [submodule "bundle/vimux"]
 	path = bundle/vimux
 	url = git://github.com/benmills/vimux.git

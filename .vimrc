@@ -174,6 +174,9 @@ let g:Powerline_symbols = 'fancy'
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
 
+" Vroom
+let g:vroom_use_vimux = 1
+
 " }}}
 
 " MAPPINGS {{{

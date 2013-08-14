@@ -177,6 +177,10 @@ let g:SuperTabDefaultCompletionType = "context"
 " Vroom
 let g:vroom_use_vimux = 1
 
+" vimux
+let g:VimuxOrientation = "h"
+let g:VimuxHeight = "41"
+
 " }}}
 
 " MAPPINGS {{{

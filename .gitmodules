@@ -43,9 +43,6 @@
 [submodule "bundle/vim-addons-mw-utils"]
 	path = bundle/vim-addons-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
 [submodule "bundle/colors-solarized"]
 	path = bundle/colors-solarized
 	url = git://github.com/skwp/vim-colors-solarized.git

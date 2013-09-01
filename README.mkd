@@ -1,30 +1,11 @@
 ## Install
 
     git clone --recursive git@github.com:yevgenko/dotvim.git ~/.vim
-    cd ~/.vim/bundle/command-t
-    rake make # see command-t notes
 
 Replace your `~/.vimrc` file with something like this:
 
     " Source general configuration file
     source ~/.vim/.vimrc
-
-## Notes
-
-### Command-T
-
-If you are an RVM user, you must perform the build(`rake make`) using the same
-version of Ruby that Vim itself is linked against. This will often be the
-system Ruby, which can be selected before issuing the "make" command with:
-
-    rvm use system
-
-### Powerline
-
-Ubuntu Mono fonts patched for the "Powerline" vim plugin: https://github.com/Lokaltog/vim-powerline/
-
-    mkdir ~/.fonts && cd ~/.fonts && git clone https://github.com/scotu/ubuntu-mono-powerline.git
-    sudo fc-cache -vf
 
 ## Copyright
 

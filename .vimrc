@@ -173,6 +173,7 @@ let g:SuperTabDefaultCompletionType = "context"
 
 " Vroom
 let g:vroom_use_vimux = 1
+let g:vroom_cucumber_path = 'cucumber'
 
 " vimux
 let g:VimuxOrientation = "h"
@@ -327,5 +328,8 @@ map <leader>l :TagbarToggle<CR>
 
 " Line number toggle trigger
 let g:NumberToggleTrigger = '<leader>m'
+
+" Vimux
+map <leader>rq :VimuxCloseRunner<CR>
 
 " }}}

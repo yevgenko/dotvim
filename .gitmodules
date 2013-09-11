@@ -115,3 +115,6 @@
 [submodule "bundle/tmux-navigator"]
 	path = bundle/tmux-navigator
 	url = git://github.com/christoomey/vim-tmux-navigator.git
+[submodule "bundle/snippets"]
+	path = bundle/snippets
+	url = https://github.com/honza/vim-snippets

@@ -2,15 +2,13 @@
 source ~/.vim/bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+" General Settings {{{
+
 " Enable loading filetype and indentation plugins
 filetype plugin indent on
 
 " Turn syntax highlighting on
 syntax on
-
-" SETTINGS {{{
-
-" GENERAL {{{
 
 " Write contents of the file, if it has been modified, on buffer exit
 set autowrite
@@ -137,15 +135,15 @@ set backspace=start,eol,indent
 " Allow file inline modelines to provide settings
 set modeline
 
-" change NERDTree whenever the three root is changed
-let g:NERDTreeChDirMode=2
+" 80 column layout indicator
+set colorcolumn=80
 
-" toggle NERDTree on the right
-let g:NERDTreeWinPos="right"
+" remove toolbar in gvim
+set guioptions-=T
 
-let g:PHP_removeCRwhenUnix=1
+" }}}
 
-" color scheme
+" Color Scheme {{{
 if has('gui_running')
   set background=light
 else
@@ -153,37 +151,9 @@ else
 endif
 colorscheme solarized
 set t_Co=256
-
-" 80 column layout indicator
-set colorcolumn=80
-
-" remove toolbar in gvim
-set guioptions-=T
-
-"}}}
-
-" ack binaries name and default options
-let g:ackprg = "ack-grep -H --nocolor --nogroup --column"
-
-" Eclim - shared tree instance
-let g:EclimProjectTreeSharedInstance = 1
-
-" SuperTab
-let g:SuperTabDefaultCompletionType = "context"
-
-" Vroom
-let g:vroom_use_vimux = 1
-let g:vroom_cucumber_path = 'cucumber'
-
-" vimux
-let g:VimuxOrientation = "h"
-let g:VimuxHeight = "41"
-
 " }}}
 
-" MAPPINGS {{{
-
-" GENERAL {{{
+" General Mappings {{{
 
 " save changes
 map ,s :w<CR>
@@ -243,18 +213,38 @@ nmap ; :%s/\<<c-r>=expand("<cword>")<cr>\>/
 vnoremap < <gv
 vnoremap > >gv
 
-" toggle NERDTree window
-nmap <c-w>t :NERDTreeToggle<cr>
-
-" F9 - "make" команда
-map <F9> :make<cr>
-vmap <F9> <esc>:make<cr>i
-imap <F9> <esc>:make<cr>i
-
 " }}}
 
 " Set the <Leader> for combo commands
 let mapleader = ","
+
+" change NERDTree whenever the three root is changed
+let g:NERDTreeChDirMode=2
+
+" toggle NERDTree on the right
+let g:NERDTreeWinPos="right"
+
+" toggle NERDTree window
+nmap <c-w>t :NERDTreeToggle<cr>
+
+let g:PHP_removeCRwhenUnix=1
+
+" ack binaries name and default options
+let g:ackprg = "ack-grep -H --nocolor --nogroup --column"
+
+" Eclim - shared tree instance
+let g:EclimProjectTreeSharedInstance = 1
+
+" SuperTab
+let g:SuperTabDefaultCompletionType = "context"
+
+" Vroom
+let g:vroom_use_vimux = 1
+let g:vroom_cucumber_path = 'cucumber'
+
+" vimux
+let g:VimuxOrientation = "h"
+let g:VimuxHeight = "41"
 
 " {{{ MovingThroughCamelCaseWords
 
@@ -295,14 +285,15 @@ map <leader>rt :!ctags -R<CR><C-M>
 " Search keyword in files
 nmap <leader>a <Esc>:Ack!<cr>
 
-" DWM - dynamic window manager
+" DWM - dynamic window manager {{{
 let g:dwm_map_keys = 0
 map <C-@> :call DWM_Focus()<CR>
 map <C-M> :call DWM_Full()<CR>
 map <C-J> <C-W>w
 map <C-K> <C-W>W
+" }}}
 
-" Fake '|' as text object
+" Fake '|' as text object {{{
 nnoremap di\| T\|d,
 nnoremap da\| F\|d,
 nnoremap ci\| T\|c,
@@ -311,8 +302,9 @@ nnoremap yi\| T\|y,
 nnoremap ya\| F\|y,
 nnoremap vi\| T\|v,
 nnoremap va\| F\|v,
+" }}}
 
-" Fake '/' as text object
+" Fake '/' as text object {{{
 nnoremap di/ T/d,
 nnoremap da/ F/d,
 nnoremap ci/ T/c,
@@ -321,6 +313,7 @@ nnoremap yi/ T/y,
 nnoremap ya/ F/y,
 nnoremap vi/ T/v,
 nnoremap va/ F/v,
+" }}}
 
 " Tagbar
 let g:tagbar_autoclose = 1
@@ -334,5 +327,3 @@ map <leader>rq :VimuxCloseRunner<CR>
 
 " Autoclose
 let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'"}
-
-" }}}

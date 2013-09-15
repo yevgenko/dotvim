@@ -173,9 +173,6 @@ imap <C-L> @@@<ESC>hhkywjl?@@@<CR>P/@@@<CR>3s
 nmap ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 " page down with <Space>
 nmap <Space> <PageDown>
-" open filename under cursor in a new window (use current file's working
-" directory)
-nmap gf :new %:p:h/<cfile><CR>
 " map <p> and <P> to paste below/above and reformat
 nnoremap <Esc>P  P'[v']=
 nnoremap <Esc>p  p'[v']=

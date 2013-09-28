@@ -4,6 +4,9 @@ call pathogen#infect()
 
 " General Settings {{{
 
+" matchit plugin
+runtime macros/matchit.vim
+
 " Enable loading filetype and indentation plugins
 filetype plugin indent on
 

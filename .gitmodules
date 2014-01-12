@@ -55,9 +55,6 @@
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = git://github.com/tpope/vim-rvm.git
-[submodule "bundle/autoclose"]
-	path = bundle/autoclose
-	url = git://github.com/Townk/vim-autoclose.git
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git

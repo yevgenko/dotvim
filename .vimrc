@@ -321,6 +321,3 @@ let g:NumberToggleTrigger = '<leader>m'
 
 " Vimux
 map <leader>rq :VimuxCloseRunner<CR>
-
-" Autoclose
-let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'"}

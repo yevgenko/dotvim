@@ -321,3 +321,6 @@ let g:NumberToggleTrigger = '<leader>m'
 
 " Vimux
 map <leader>rq :VimuxCloseRunner<CR>
+
+" PIV Settings - PHP Integration Environment
+let g:DisableAutoPHPFolding = 1

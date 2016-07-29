@@ -226,9 +226,6 @@ nmap <c-w>t :NERDTreeToggle<cr>
 
 let g:PHP_removeCRwhenUnix=1
 
-" ack binaries name and default options
-let g:ackprg = "ack-grep -H --nocolor --nogroup --column"
-
 " Eclim - shared tree instance
 let g:EclimProjectTreeSharedInstance = 1
 

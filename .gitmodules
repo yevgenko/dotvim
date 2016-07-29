@@ -127,3 +127,6 @@
 [submodule "bundle/phpcomplete"]
 	path = bundle/phpcomplete
 	url = git://github.com/shawncplus/phpcomplete.vim.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = git@github.com:plasticboy/vim-markdown.git

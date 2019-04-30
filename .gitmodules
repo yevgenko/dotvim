@@ -52,9 +52,6 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = git://github.com/pangloss/vim-javascript.git
-[submodule "bundle/gist"]
-	path = bundle/gist
-	url = git://github.com/mattn/gist-vim.git
 [submodule "bundle/bundler"]
 	path = bundle/bundler
 	url = git://github.com/tpope/vim-bundler.git
@@ -70,9 +67,6 @@
 [submodule "bundle/localvimrc"]
 	path = bundle/localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
-[submodule "bundle/PIV"]
-	path = bundle/PIV
-	url = git://github.com/spf13/PIV.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
@@ -112,9 +106,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
-[submodule "bundle/phpcomplete"]
-	path = bundle/phpcomplete
-	url = git://github.com/shawncplus/phpcomplete.vim.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git@github.com:plasticboy/vim-markdown.git

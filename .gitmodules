@@ -22,9 +22,6 @@
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = git://github.com/tomtom/tcomment_vim.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = git://github.com/garbas/vim-snipmate.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
@@ -34,9 +31,6 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
-[submodule "bundle/tlib"]
-	path = bundle/tlib
-	url = git://github.com/tomtom/tlib_vim.git
 [submodule "bundle/vim-addons-mw-utils"]
 	path = bundle/vim-addons-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
@@ -106,9 +100,6 @@
 [submodule "bundle/tmux-navigator"]
 	path = bundle/tmux-navigator
 	url = git://github.com/christoomey/vim-tmux-navigator.git
-[submodule "bundle/snippets"]
-	path = bundle/snippets
-	url = https://github.com/honza/vim-snippets
 [submodule "bundle/vim-textobj-rubyblock"]
 	path = bundle/vim-textobj-rubyblock
 	url = https://github.com/nelstrom/vim-textobj-rubyblock

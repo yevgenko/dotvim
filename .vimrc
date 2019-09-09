@@ -206,6 +206,8 @@ imap <c-j> <esc>ddpi
 imap <c-k> <esc>ddkPi
 " Поиск и замена слова под курсором
 nmap ; :%s/\<<c-r>=expand("<cword>")<cr>\>/
+" Search selection
+vmap ; "zy<esc>:/<c-r>=getreg('z')<cr><cr>
 " visual shifting (does not exit Visual mode)
 vnoremap < <gv
 vnoremap > >gv
@@ -278,6 +280,13 @@ map <leader>rt :!ctags -R<CR><C-M>
 
 " Search keyword in files
 nmap <leader>a <Esc>:Ack!<cr>
+" Search selection in files
+vmap <leader>a "zy<Esc>:Ack! "<c-r>=getreg('z')<cr>"<cr>
+
+" Search keyword in current file
+nmap <leader>A <Esc>:Ack! <c-r>=expand("<cword>")<cr> %<cr>
+" Search selection in current file
+vmap <leader>A "zy<Esc>:Ack! "<c-r>=getreg('z')<cr>" %<cr>
 
 " DWM - dynamic window manager {{{
 let g:dwm_map_keys = 0

@@ -224,7 +224,8 @@ let g:NERDTreeChDirMode=2
 let g:NERDTreeWinPos="right"
 
 " toggle NERDTree window
-nmap <c-w>t :NERDTreeToggle<cr>
+nmap <c-w>tt :NERDTreeToggle<cr>
+nmap <c-w>tf :NERDTreeFind<cr>
 
 let g:PHP_removeCRwhenUnix=1
 
